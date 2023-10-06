@@ -1,0 +1,81 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container {
+  background-color: rgb(20, 19, 19);
+  padding: 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(18, 233, 197);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(11, 117, 16);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+.copyBtn {
+  height: 30px;
+  font-size: 1rem;
+}
+.charLength span {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.charLength {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+}
+.checkboxes div {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 5px;
+}
+.generateBtn {
+  font-size: 2rem;
+  padding: 10px;
+  width: 100%;
+}
+.errorMessage {
+  color: red;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+/* Change the color of the checkbox when it's not checked */
+input[type="checkbox"] {
+  appearance: none; /* Hide the default checkbox appearance */
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+  color: red;
+}
+
+/* Change the color of the checkbox when it's checked */
+input[type="checkbox"]:checked {
+  background-color: #28a745;
+}
